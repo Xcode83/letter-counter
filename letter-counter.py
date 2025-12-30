@@ -1,2 +1,3 @@
 text = input("Enter here: ")
-print("Number of letters : " + str(len(text)))
+no_spaces = text.replace(" ", "")
+print(f"Number of letters: {len(no_spaces)}")
